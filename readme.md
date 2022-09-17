@@ -1,8 +1,7 @@
 # Cryptocurrency Price Tracker
 
-Build a Cryptocurrency Price Tracker.
- “*”This api monitors every 30sec the current bincoin price .
- “*”And see if the current price breaking maximum price than it alert by seding email
+This api monitors every 30sec the current bincoin price .
+And see if the current price breaking maximum (or) minimum price than it alert by seding email.
 
 ---
 ## Requirements
