@@ -35,6 +35,7 @@ For development, you will only need Node.js and a node global package, installed
                       }
     Here Limit indicates to get response 10 monitored data .
     By Giving page No your can  create the pagination .
+    You can also filter by date.
  
 ---
 ## Environment variables 
@@ -52,7 +53,7 @@ For development, you will only need Node.js and a node global package, installed
                 PORT=Number
                 
  ---
- ## Example to create .env
+ ## Example to create .env file
  
          $ Mailtrap credentials : 
            
@@ -69,6 +70,7 @@ For development, you will only need Node.js and a node global package, installed
                 PORT=8080 
 
 ---
+
     
     
     
