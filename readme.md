@@ -39,6 +39,36 @@ For development, you will only need Node.js and a node global package, installed
 ---
 ## Environment variables 
     
-     create .env file 
-     here we have two types 
+    $ create .env file 
+    $ On that we have to give 
+  
+                user="--------"
+                password="--------"
+                HOST= smtp.mailtrap.io
+                FROM=mailtrap.io
+                TO=email
+                MAX=Number
+                MIN=Number
+                PORT=Number
+                
+ ---
+ ## Example to create .env
+ 
+         $ Mailtrap credentials : 
+           
+                user= create mailtrap user id
+                password= create mailtrap user password
+                HOST= "smtp.mailtrap.io"
+                FROM="monitorcrypto.mailtrap.io"
+                
+         $ User credentials  :
+      
+                TO="helloworld@gmail.com"
+                MAX=25000
+                MIN=19000
+                PORT=8080 
+
+---
+    
+    
     
