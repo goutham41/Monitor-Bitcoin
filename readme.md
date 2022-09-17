@@ -23,16 +23,9 @@ For development, you will only need Node.js and a node global package, installed
     $ server runs on port 8080
  
 ---
-## Post request to Monitor Bitcon
+## get request to Monitor Bitcon
 
     $ Post request  :  http://localhost:8080/?date=01/25/2022&page=1&limit=10
-    $ body contains : 
-                     example : 
-                     {
-                     max   : 20000,
-                     min   : 15000,
-                     email : akkaladevigoutham@gmail.com
-                     }
     $ query contains : 
                       example : 
                      {
