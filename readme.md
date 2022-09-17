@@ -39,6 +39,6 @@ For development, you will only need Node.js and a node global package, installed
 ---
 ## Environment variables 
     
-    $ create .env file 
-    ## here we have two types 
+     create .env file 
+     here we have two types 
     
