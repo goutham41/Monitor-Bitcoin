@@ -6,7 +6,7 @@ const connection = mongoose.connect(process.env.MONGO_URL, {
   useUnifiedTopology: true,
 });
 const express = require("express");
-const MonitorRouter = require("./routes/Monitor")
+const MonitorRouter = require("./routes/Monitor");
 const cors = require("cors");
 const app = express();
 app.use(cors());

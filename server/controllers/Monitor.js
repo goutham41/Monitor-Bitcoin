@@ -4,7 +4,9 @@ const hbs = require("handlebars");
 const axios = require("axios");
 module.exports.MonitorBitCon = (req, res) => {
   let { date, page, limit } = req.query;
-  const { max, min, email } = req.body;
+  let email = process.env.USEREMAIL;
+  let min = process.env.MIN;
+  let max = process.env.MAX;
   function SendMail(Data, str, maxmin, email) {
     const transport = nodemailer.createTransport({
       host: process.env.HOST,
