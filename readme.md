@@ -25,7 +25,7 @@ For development, you will only need Node.js and a node global package, installed
 ---
 ## get request to Monitor Bitcon
 
-    $ Post request  :  http://localhost:8080/?date=01/25/2022&page=1&limit=10
+    $ get request  :  http://localhost:8080/?date=01/05/2022&page=1&limit=10
     $ query contains : 
                       example : 
                      {
@@ -34,8 +34,11 @@ For development, you will only need Node.js and a node global package, installed
                         limit : 10
                       }
     Here Limit indicates to get response 10 monitored data .
-    By sending page , limit your create the pagination .
-           
-                     
-
+    By Giving page No your can  create the pagination .
+ 
+---
+## Environment variables 
+    
+    $ create .env file 
+    ## here we have two types 
     
