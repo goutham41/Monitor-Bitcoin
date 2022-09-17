@@ -1,7 +1,7 @@
 # Cryptocurrency Price Tracker
 
 This api monitors every 30sec the current bincoin price .
-And see if the current price breaking maximum (or) minimum price than it alert by seding email.
+And see if the current price breaking maximum (or) minimum price than it alert by sending email.
 
 ---
 ## Requirements
