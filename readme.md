@@ -1,8 +1,8 @@
 # Cryptocurrency Price Tracker
 
 Build a Cryptocurrency Price Tracker.
--### This api monitors every 30sec the current bincoin price .
-      -> And see if the current price breaking maximum price than it alert by seding email
+ “*”This api monitors every 30sec the current bincoin price .
+ “*”And see if the current price breaking maximum price than it alert by seding email
 
 ---
 ## Requirements
@@ -34,14 +34,15 @@ For development, you will only need Node.js and a node global package, installed
                      min   : 15000,
                      email : akkaladevigoutham@gmail.com
                      }
-     $ query contains : 
+    $ query contains : 
                       example : 
-                      {
+                     {
                         date  : 01/25/2022,
                         page  : 1,
                         limit : 10
                       }
-           Here Limit indicates to get response 10 monitored data       
+    Here Limit indicates to get response 10 monitored data .
+    By sending page , limit your create the pagination .
            
                      
 
