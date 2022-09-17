@@ -4,9 +4,9 @@ const MonitorPriceSchema = new Schema(
   {
     price: Number,
     coin: String,
-    email:String
-  },
-  { timestamps: true },
+    email:String,
+    date:String
+  }
 );
 
 const MonitorPrice = model("monitor",MonitorPriceSchema);
