@@ -1,6 +1,8 @@
-# Project Title
+# Cryptocurrency Price Tracker
 
-Build a Cryptocurrency Price Tracker
+Build a Cryptocurrency Price Tracker.
+-### This api monitors every 30sec the current bincoin price .
+      -> And see if the current price breaking maximum price than it alert by seding email
 
 ---
 ## Requirements
@@ -19,3 +21,28 @@ For development, you will only need Node.js and a node global package, installed
 
     $ node index.js 
     $ (or) npm run start 
+    $ server runs on port 8080
+ 
+---
+## Post request to Monitor Bitcon
+
+    $ Post request  :  http://localhost:8080/?date=01/25/2022&page=1&limit=10
+    $ body contains : 
+                     example : 
+                     {
+                     max   : 20000,
+                     min   : 15000,
+                     email : akkaladevigoutham@gmail.com
+                     }
+     $ query contains : 
+                      example : 
+                      {
+                        date  : 01/25/2022,
+                        page  : 1,
+                        limit : 10
+                      }
+           Here Limit indicates to get response 10 monitored data       
+           
+                     
+
+    
