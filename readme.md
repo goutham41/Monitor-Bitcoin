@@ -1,12 +1,12 @@
 # Cryptocurrency Price Tracker
 
-This api monitors every 30sec the current bincoin price .
-And see if the current price breaking maximum (or) minimum price than it alert by sending email.
+This API monitors every 30sec the current bitcoin price.
+And see if the current price breaks the maximum (or) minimum price then it alerts by sending an email.
 
 ---
 ## Requirements
 
-For development, you will only need Node.js and a node global package, installed in your environement.
+For development, you will only need Node.js and a Node global package, installed in your environment.
 
 ---
 ## Install
